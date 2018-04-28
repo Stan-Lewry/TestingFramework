@@ -32,6 +32,7 @@ private:
 
     ExampleTestSuite()
     {
+	// dont forget to register your class
 	_RegisterTestSuite(ExampleTestSuite);
     }
     ExampleTestSuite(TestSuite const&);
