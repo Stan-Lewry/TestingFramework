@@ -53,14 +53,7 @@ void ReportGenerator::_WriteHeader(std::ofstream &file)
     file << "<head>\n";
     file << "</head>\n";
     file << "<body>\n";
-    file << "<pre>\n";
-    file << " _____ _____ _____ _____  ______ ___________ ___________ _____ \n";
-    file << "|_   _|  ___/  ___|_   _| | ___ \\  ___| ___ \\  _  | ___ \\_   _|\n";
-    file << "  | | | |__ \\ `--.  | |   | |_/ / |__ | |_/ / | | | |_/ / | |  \n";
-    file << "  | | |  __| `--. \\ | |   |    /|  __||  __/| | | |    /  | |  \n";
-    file << "  | | | |___/\\__/ / | |   | |\\ \\| |___| |   \\ \\_/ / |\\ \\  | |  \n";
-    file << "  \\_/ \\____/\\____/  \\_/   \\_| \\_\\____/\\_|    \\___/\\_| \\_| \\_/  \n";
-    file << "</pre>\n";
+    file << "<pre>Test Results</pre>\n";
 }
 
 void ReportGenerator::_WriteSuiteResult(std::ofstream &file, TestSuiteResult suiteResult)
